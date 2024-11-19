@@ -1,17 +1,17 @@
 
   // /////////////////////////////////////////
-  window.addEventListener("scroll" , function () {    
-    var navbar =  document.querySelector("nav");
-    navbar.classList.toggle("sticky",window.scrollY >500);
-  })
+  // window.addEventListener("scroll" , function () {    
+  //   var navbar =  document.querySelector("nav");
+  //   navbar.classList.toggle("sticky",window.scrollY >500);
+  // })
   // ///////////////////////////////////////////////////////////// ///////////////////////
  /* 1. Proloder */
-$(window).on('load', function () {
-    $('#preloader-active').delay(450).fadeOut('slow');
-    $('body').delay(850).css({
-    'overflow': 'visible'
-    });
-});
+// $(window).on('load', function () {
+//     $('#preloader-active').delay(450).fadeOut('slow');
+//     $('body').delay(850).css({
+//     'overflow': 'visible'
+//     });
+// });
 // ////////////////////////// /////////////////////// ///////////////////////
 // var typed = new Typed(".type-text", {
 //   strings: [
