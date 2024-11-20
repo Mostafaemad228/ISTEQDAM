@@ -439,284 +439,7 @@ body::-webkit-scrollbar-thumb {
 
 
 
-/* /////////////////////////////////////////////////////////// */
-/* /////////////////////////////////////////////////////////// */
-/* /////////////////////////////////////////////////////////// */
-/* /////////////////////////////////////////////////////////// */
-.about_products{
-    width: 100%;
-    height: 600px;
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/baners/aboutpage.png) no-repeat center bottom fixed;
-    background-size: cover;
-}
-
-.about_products .welcomediv p {
-    color: #666666;
-    background-color: #E2F8EB;
-    /* display: inline; */
-    font-weight: 400;
-    font-family: 'Noto Sans Arabic', sans-serif !important;
-    font-size: 15px;
-    line-height: 40px;
-    text-align: right !important;
-    padding: 0;
-
-}
-/* //////////////////////////////////////////// */
-/* /////////////////////////////////////////// */
-#department{
-    width: 100%;
-    height: auto;
-    position: relative;
-}
-.department .nav-link  {
-     background-color: transparent!important;
-     color: var(--main-color)!important;
-     border: 1px solid #9999;
-     border-radius: 0px;
-}
-.department .nav-link.nav-link.active  {
-    border: 1px solid #9999;
-    /* border-bottom:none ; */
-    border-left: none;
-    border-radius: 0px;
-}
-.nav-pills-custom .nav-link {
-    color: #aaa;
-    background: #fff;
-    position: relative;
-}
-
-.nav-pills-custom .nav-link.active {
-    background: #fff;
-}
-
-.nav-pills-custom .nav-link.active::before {
-    opacity: 1;
-}
-
-.department-img{
-    width: 100%;
-    height: 500px;
-    background:  no-repeat  center ;
-    background-size: cover;  
-}
-
-.tab-text h6{
-    font-family: 'Harmattan', sans-serif;
-    font-size: 20px;
-    color: #999999;
-}
-.tab-text .span-carry{
-    border: 1px solid #aaa;
-    padding: 5px!important;
-    margin-top: 10px!important;
-    color: #999999;
-}
-/* //////////////////////////////////////////// */
-/* /////////////////////////////////////////// */
-/* //////////////////////////////////////////// */
-/* /////////////////////////////////////////// */
-
-
-
-
-
-
-.count{
-    width: 100%;
-    height: auto;
-    position: relative;
-    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../images/baners/count.jpg) no-repeat center fixed;
-    background-size: cover;
-    margin-top:150px !important;
-    /* margin-bottom: 50px; */
-}
-.count-text{
-    color: #ffffffd7;
-}
- .count-icon-inner{
-    width: 80px!important;
-    height: 80px!important;
-    border-radius: 50%;
-    border: 10px solid #F7C04A;
-    padding: 20px 8px;
-    line-height: 31px;
-    margin: 0 auto;
-}
-.count-icon{
-    font-size: 22px;
-    color: #15fa80 !important;
-}
-
-.countfect{
-    color: #00A651;
-}
-.count-icon-inner p{
-    color:#F7C04A ;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* /////////////////////////////////////////////////////////// */
-/* /////////////////////////////////////////////////////////// */
-
-.loginSection {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    background: rgb(3,1,43);
-    /* background: linear-gradient(90deg, 
-    rgba(3,1,43,1) 0%, rgba(0,7,36,1) 6%, rgba(9,9,121,1) 44%, rgba(8,71,133,1) 77%, rgba(0,212,255,1) 100%); */
-    background: url('../images/signup/signup.jpg') no-repeat center ;
-    background-size: cover;
-}
-
-.signupSection {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
-}
-
-.MainLogin {
-    height: auto;
-    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
-    background: rgba(0, 0, 0, 0.5);
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 2.5px );
--webkit-backdrop-filter: blur( 2.5px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-
-}
-
-.MainLogin h3 {
-    color: var(--sec-color) !important;
-    font-family: 'Gaegu', cursive;
-}
-
-.MainLogin p {
-    color: var(--sec-color);
-    font-family: 'Gaegu', cursive;
-}
-
-.MainLogin form input {
-    background-color: transparent !important;
-    color: #fff;
-    border: 1.7px solid var(--sec-color) !important;
-}
-
-.MainLogin form input:focus {
-    color: #fff;
-}
-
-.MainLogin form input::placeholder {
-    color: var(--sec-color);
-}
-
-.targetLink {
-    font-family: 'Stylish', sans-serif;
-    color: var(--main-color);
-    font-size: 19px;
-}
-
-/* //////////////////////   contact us   //////////////////// */
-/* //////////////////////   contact us   //////////////////// */
-/* //////////////////////   contact us   //////////////////// */
-.contactus {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    background: rgb(3,1,43);
-    /* background: linear-gradient(90deg, 
-    rgba(3,1,43,1) 0%, rgba(0,7,36,1) 6%, rgba(9,9,121,1) 44%, rgba(8,71,133,1) 77%, rgba(0,212,255,1) 100%); */
-    background: url('../images/baners/pexels-m&w-studios-90319.jpg') no-repeat center ;
-    background-size: cover;
-}
-
-
-.contact_container {
-    height: auto;
-    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
-    background: rgba(0, 0, 0, 0.662);
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 2.5px );
--webkit-backdrop-filter: blur( 2.5px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-
-}
-
-.contact_container h3 {
-    color: #fff !important;
-    font-family: 'Gaegu', cursive;
-}
-
-.contact_container p {
-    color: #fff;
-    font-family: 'Gaegu', cursive;
-}
-
-.contact_container form input,
-.contact_container form textarea {
-    background-color: transparent !important;
-    color: #fff;
-    border: none;
-    border-bottom: 1.7px solid #fff !important;
-}
-
-.contact_container form input:focus {
-    color: #fff;
-}
-
-.contact_container form input::placeholder {
-    color: #fff;
-}
-
-.targetLink {
-    font-family: 'Stylish', sans-serif;
-    color: #fff;
-    font-size: 19px;
-}
-
-
-/* //////////////////////   products   //////////////////// */
-/* //////////////////////   products   //////////////////// */
-/* //////////////////////   products   //////////////////// */
-.header_products{
-    width: 100%;
-    height: 600px;
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/baners/products_banner.jpg) no-repeat center fixed;
-    background-size: cover;
-
-}
-
-.shuffl-links a{
-    font-size: 25px;
-    text-decoration: none;
-    color: var(--sec-color);
-
-}
-
+/* 
 
 /* //////////////////////   responsive   //////////////////// */
 /* //////////////////////   responsive   //////////////////// */
@@ -724,174 +447,285 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 /* //////////////////////   responsive   //////////////////// */
 /* 1199 */
 @media screen and (max-width: 1200px) {
+    .header {
+        height: auto;
+        padding-bottom: 100px;
+    }
 
     .nav-link {
         font-size: 17px !important;
         font-weight: 400 !important;
     }
 
-    .waveheader{
-        top: 86% !important;
-        left: 0%;
+    .fa-bars{
+        color: #000;
     }
-    .servces_overlay h4 {
-        font-size: 20px;
-    }
-
-/* * /////     old       //////// */
-    .welcomediv .personal-photo img {
-        width: 250px;
-        height: 250px;
-    }
-    .right-div{
-        position: relative;
-        right: 0;
-        top: 0;
-        display: block;
-        background-color: transparent;
+    
+    .Left_Section,
+    .Right_Section{
+       padding-left: 0 !important;
+       padding-right: 0 !important;
+       padding-top: 20px;
     }
 
-    .about-data {
-        display: block !important;
-        margin: 0px;
+   .text-box h2{
+       font-size: 25px;
+       text-align: right !important;
+       line-height: 30px;
+   }
+
+
+   .aboutSectionImages{
+       padding: 0px !important;
+       padding-top: 0;
+   }
+   .about-dataSection  {
+       /* padding: 60px !important; */
+       padding: 0 60px !important;
+       margin-top: 50px !important;
+
+   }
+   .about-dataSection h1 {
+       font-size: 40px;
+       text-align: right !important;
+   }
+
+   .about-dataSection h3 {
+       font-size: 20px;
+       text-align: right !important;
+       display: block;
+   }
+   
+
+
+    .cardboxContainer{
+        width: 100% !important;
+        padding: 0px !important;
+    }
+    .cardboxsSide{
+        padding: 0px !important;
+        /* margin-right: 30px !important; */
+
+    }
+    .cardbox{
+        padding: 0px !important;
+        padding-top: 20px !important;
+        margin: 0 !important;
+        
+    }
+    .employment{
+        width: 100% !important;
+    }
+    .cardimages {
+        width: 70px;
+        height: 70px;
+        line-height: 60px;
+
     }
 
-/* * /////     old       //////// */
+    .cardimages img{
+        width:40px;
+    }
 
+
+    .statisticsunits{
+        border: none !important;
+    }
+
+
+
+    .footer img {
+        width: 150px;
+    }
 
 }
 
+/* /////////////////////////////////////////////// */
 
 @media screen and (max-width: 991px) {
     
-    .waveheader {
-        top: 87% !important;
-        left: 0%;
-    }
-    
-    /* * /////     old       //////// */
-
-        .navbar {
-            background-color: black;
-            padding: 20px 20px;
-            background-color: black;
-            padding: 0px 5px !important;
-        }
-
-        .navbar .nav-link {
-            padding: none !important;
-        }
-
-        .welcomediv {
-            text-align: center;
-        }
-
-        .welcomediv .personal-photo img {
-            width: 180px;
-            height: 180px;
-
-        }
-        .welcomediv  {
-            
-            text-align: center !important;
-            
-        }
-        .welcomediv h1 {
-            font-size: 30px;
-            text-align: center !important;
-
-        }
-
-        .welcomediv h3 {
-            font-size: 25px;
-            text-align: center !important;
-
-        }
-
-        .welcomediv p {
-            width: 100% !important;
-            text-align: center !important;
-
-        }
-        .Butn1contain{
-            text-align: center !important;
-        }
-        /* ? ///////////////////////////////////// */
-        .signupSection {
-            height: 100% !important;
-        }
-    /* * /////     old       //////// */
 
 }
 
-
+/* /////////////////////////////////////////////// */
 
 @media screen and (max-width: 767px) {
     
 
+
+    .header {
+        height: auto;
+        padding-bottom: 100px;
+    }
+    .navbar {
+        background-color: transparent;
+        padding: 20px 20px;
+        padding: 0px 5px !important;
+    }
+    .fa-bars{
+        color: #000;
+    }
+    .navbar .nav-link {
+        padding: none !important;
+    }
+
+    .navbar-brand img {
+        margin-right: 0px !important;
+    }
+    .welcomediv {
+        text-align: center;
+        padding: 40px;
+    }
     .welcomediv h1 {
-            font-size: 30px;
+        font-size: 30px;
+        text-align: right !important;
+
     }
 
-        .welcomediv h3 {
-            font-size: 12px;
-            width: 80%;
-    }
-
-        .welcomediv p {
-            width: 100% !important;
-    }
-        .welcomediv .butn1 {
-            font-size: 12px ;
-    }
-    
-    .waveheader {
-        top: 95% !important;
-        left: 0%;
-    }
-
-    .above-inner h2 {
+    .welcomediv h2 {
         font-size: 25px;
+        text-align: right !important;
+
     }
 
-    .above-inner p {
-        font-size: 18px;
-    }
-    .about-image{
-        margin-top:20px;
-    }
-    .goal {
-        width: 100%;
-        height: auto;
-        background-color: #FCF9ED;
-        padding-bottom: 70px;
-    }
-    .testemonials {
-        width: 100%;
-        height: auto;
-        background-color: #E2F8EB;
-        padding-bottom: 70px;
-    }
-    .doc-photo-marg {
-        margin-top: 0;
-        margin-bottom: -250px;
+    .welcomediv h3 {
+        font-size: 25px;
+        text-align: right !important;
+        line-height: 30px;
+
     }
 
-    .socialmediaIcons{
-        display: none;
+    /* .welcomediv p {
+        width: 100% !important;
+        text-align: center !important;
+
+    } */
+
+
+
+
+
+
+     .Left_Section,
+     .Right_Section{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-top: 20px;
+     }
+
+    .text-box h2{
+        font-size: 25px;
+        text-align: right !important;
+        line-height: 30px;
     }
 
+
+    .aboutSectionImages{
+        padding: 0px !important;
+        padding-top: 0;
+    }
+    .about-dataSection  {
+        /* padding: 60px !important; */
+        padding: 0 60px !important;
+        margin-top: 50px !important;
+
+    }
+    .about-dataSection h1 {
+        font-size: 40px;
+        text-align: right !important;
+    }
+
+    .about-dataSection h3 {
+        font-size: 20px;
+        text-align: right !important;
+        display: block;
+    }
+    
+
+
+
+    .sections-titles h1,
+    .sections-titles h2 {
+        text-align: center !important;
+        font-weight: bold;
+    }
+
+    .cardboxContainer{
+        width: 100% !important;
+        padding: 0px !important;
+    }
+    .cardboxsSide{
+        padding: 0px !important;
+        /* margin-right: 30px !important; */
+
+    }
+    .cardbox{
+        padding: 0px !important;
+        padding-top: 20px !important;
+        margin: 0 !important;
+        
+    }
+    .employment{
+        width: 100% !important;
+    }
+    .cardimages {
+        width: 70px;
+        height: 70px;
+        line-height: 60px;
+
+    }
+
+    .cardimages img{
+        width:40px;
+    }
+    .ServiciesParts{
+        width: 33.333% !important;
+        padding: 0 !important;
+
+    }
 
     
-    .waveup {
-        left: 0;
-        top: 36%;
+
+    .stepsContainer{
+        width: 100% !important;
     }
 
-    .title-text::after {
-        top: 120px;
+    .stepsContainer {
+        width: 100% !important;
     }
 
+
+
+
+    .statisticsunits{
+        border: none !important;
+    }
+
+    .stats-section h1 {
+        font-size: 2.2rem;
+    
+    }
+    
+    .stats-section h2 {
+        font-size: 2.2rem;
+    
+    
+    }
+    
+    .stats-section p {
+        font-size: 1rem; 
+    }
+
+
+
+    .cta-section h1{
+        font-size: 2.2rem;
+    }
+
+    .cta-section p{
+        font-size: 1.5rem;
+        margin-top: 0px !important;
+    }
 }
 
 
