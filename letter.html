@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نموذج طلب</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 30px auto;
+            table-layout: fixed;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .header {
+            background-color: #3366cc;
+            color: #fff;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .logo {
+            width: 150px;
+            height: auto;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 18px;
+            padding: 10px;
+            background-color: #f0f0f0;
+        }
+
+        .form-section {
+            background-color: #eaeaea;
+        }
+
+        .radio-group {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .dropdown {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <!-- Header Section -->
+        <tr>
+            <td><img src="logo1.png" alt="Logo 1" class="logo"></td>
+            <td colspan="2" class="header">اضغط لمسح الحقول لطباعة بيانات جديدة</td>
+            <td><img src="logo2.png" alt="Logo 2" class="logo"></td>
+        </tr>
+        <!-- Title Section -->
+        <tr>
+            <td colspan="4" class="title">نموذج طلب</td>
+        </tr>
+        <!-- Form Section -->
+        <tr>
+            <td>سمة دخول</td>
+            <td>إقامة</td>
+            <td>إذن غياب</td>
+            <td>طفل خارج البلاد</td>
+        </tr>
+        <tr class="form-section">
+            <td>
+                <input type="radio" name="request_type">
+            </td>
+            <td>
+                <input type="radio" name="request_type">
+            </td>
+            <td>
+                <input type="radio" name="request_type">
+            </td>
+            <td>
+                <input type="radio" name="request_type">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <select class="dropdown">
+                    <option>...</option>
+                </select>
+            </td>
+            <td>
+                <select class="dropdown">
+                    <option>...</option>
+                </select>
+            </td>
+            <td>
+                <select class="dropdown">
+                    <option>...</option>
+                </select>
+            </td>
+            <td>
+                <select class="dropdown">
+                    <option>...</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
